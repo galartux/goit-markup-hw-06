@@ -443,7 +443,7 @@ button {
 
 @media screen and (min-width: 768px) {
   .hero {
-    padding: 96px 0;
+    padding: 112px 0;
     max-width: 768px;
     background-image:
       linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
