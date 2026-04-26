@@ -298,8 +298,8 @@ button {
   fill: currentColor;
 }
 
-.mobile-close-button:hover,
-.mobile-close-button:focus {
+.mobile-menu-close:hover,
+.mobile-menu-close:focus {
   background-color: #404bbf;
   color: #fff;
   border: none;
@@ -319,6 +319,7 @@ button {
   font-size: 36px;
   line-height: 1.11111;
   letter-spacing: 0.02em;
+  color: #2e2f42;
 }
 
 .mobile-menu-link.current {
@@ -334,6 +335,7 @@ button {
   height: 100%;
 }
 .mobile-menu-contacts {
+  font-style: normal;
 }
 .mobile-menu-contacts-list {
   display: flex;
@@ -347,7 +349,14 @@ button {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+}
+
+.mobile-menu-contacts-link.phone {
   color: #4d5ae5;
+}
+
+.mobile-menu-contacts-link.email {
+  color: #434455;
 }
 
 .mobile-menu-bottom {
